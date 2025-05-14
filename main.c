@@ -80,7 +80,7 @@ int main()
   lr_acc_arg_t vla;
   lr_acc_read_data_t obj;
   int i;
-  static const char filename[] = "/dev/lr_acc";
+  static const char filename[] = "/dev/lr_acc_512_8b";
 
   if ((lr_acc_fd = open(filename, O_RDWR)) == -1)
   {
